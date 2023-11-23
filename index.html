@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -7,7 +7,14 @@
     <title>Vite + TS</title>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
+    <div id="app">
+      <form action="sumbit" id="blogForm">
+        <input type="text" id="titleInput" />
+        <input type="text" id="descInput" />
+        <input type="text" id="categoryInput" />
+        <button id="addPostButton">Add Post</button>
+      </form>
+    </div>
+    <script type="module" src="/src/TS/main.ts"></script>
   </body>
 </html>
